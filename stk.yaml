@@ -2,6 +2,18 @@ applied_templates:
 - inputs:
     project_name: app1
   template_data_path: stack1/igor_template_sample
+- inputs:
+    any_list:
+    - item1
+    any_number: 10
+    example: any_text1
+  template_data_path: stack1/igor_plugin_app_sample
+- inputs:
+    any_list:
+    - item2
+    any_number: 11
+    example: any_text1,any_text2
+  template_data_path: stack1/igor_plugin_app_sample
 env_url: https://github.com/stack-spot/igor_env_sample.git
 global_computed_inputs: {}
 global_inputs: {}
