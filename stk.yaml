@@ -1,0 +1,9 @@
+applied_templates:
+- inputs:
+    project_name: app1
+  template_data_path: stack1/igor_template_sample
+env_url: https://github.com/stack-spot/igor_env_sample.git
+global_computed_inputs: {}
+global_inputs: {}
+stack: stack1
+stack_type: app
